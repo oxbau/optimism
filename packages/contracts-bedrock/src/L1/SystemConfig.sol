@@ -47,7 +47,7 @@ contract SystemConfig is OwnableUpgradeable, ISemver {
         uint256 scalar;
     }
 
-    /// @notice Struct representing the overhead, scalar, and gas limit.
+    /// @notice Struct representing the Oracle Roles.
     struct OracleRoles {
         address proposer;
         address challenger;
