@@ -17,7 +17,7 @@ func DevnetPreset() (*Preset, error) {
 		return nil, err
 	}
 
-	root, err := findMonorepoRoot(cwd)
+	root, err := FindMonorepoRoot(cwd)
 	if err != nil {
 		return nil, err
 	}
@@ -43,9 +43,9 @@ func DevnetPreset() (*Preset, error) {
 	}, nil
 }
 
-// findMonorepoRoot will recursively search upwards for a go.mod file.
+// FindMonorepoRoot will recursively search upwards for a go.mod file.
 // This depends on the structure of the monorepo having a go.mod file at the root.
-func findMonorepoRoot(startDir string) (string, error) {
+func FindMonorepoRoot(startDir string) (string, error) {
 	dir, err := filepath.Abs(startDir)
 	if err != nil {
 		return "", err
