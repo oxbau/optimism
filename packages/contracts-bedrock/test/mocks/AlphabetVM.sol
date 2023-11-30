@@ -17,18 +17,27 @@ contract AlphabetVM is IBigStepper {
     }
 
     /// @inheritdoc IBigStepper
-    function step(bytes calldata _stateData, bytes calldata, bytes32) external view returns (bytes32 postState_) {
+    function step(
+        bytes calldata _stateData,
+        bytes calldata,
+        bytes32 _localContext
+    )
+        external
+        returns (bytes32 postState_)
+    {
         uint256 traceIndex;
         uint256 claim;
         if ((keccak256(_stateData) << 8) == (Claim.unwrap(ABSOLUTE_PRESTATE) << 8)) {
             // If the state data is empty, then the absolute prestate is the claim.
             traceIndex = 0;
             (claim) = abi.decode(_stateData, (uint256));
+            claim = claim + uint256(oracle.loadLocalData(4, _localContext, 0, 32, 0));
         } else {
             // Otherwise, decode the state data.
             (traceIndex, claim) = abi.decode(_stateData, (uint256, uint256));
             traceIndex++;
         }
+
         // STF: n -> n + 1
         postState_ = keccak256(abi.encode(traceIndex, claim + 1));
         assembly {
