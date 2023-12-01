@@ -21,7 +21,8 @@ contract CrossL2Outbox is ISemver {
     /// @notice A unique value hashed with each message.
     uint240 internal msgNonce;
 
-    // TODO events
+    /// @notice Emitted when the balance of this contract is burned.
+    event WithdrawerBalanceBurnt(uint256 indexed amount);
 
     /// @notice Removes all ETH held by this contract from the state. Used to prevent the amount of
     ///         ETH on L2 inflating when ETH is withdrawn. Currently only way to do this is to
@@ -34,7 +35,7 @@ contract CrossL2Outbox is ISemver {
     }
 
     /// @notice The
-    function initiateMessage(bytes32 _targetChain, address _to, uint256 _gasLimit, bytes memory _data) external {
+    function initiateMessage(bytes32 _targetChain, address _to, uint256 _gasLimit, bytes memory _data) external payable {
         // TODO increment nonce
         // TODO construct sourceChain
         // TODO determine from as sender
@@ -54,7 +55,7 @@ contract CrossL2Outbox is ISemver {
             })
         );
 
-        sentMessages[withdrawalHash] = true;
+        sentMessages[messageRoot] = true;
 
         unchecked {
             ++msgNonce;
