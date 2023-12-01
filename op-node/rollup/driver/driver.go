@@ -63,7 +63,6 @@ type DerivationPipeline interface {
 	PendingSafeL2Head() eth.L2BlockRef
 	Origin() eth.L1BlockRef
 	EngineReady() bool
-	EngineSyncTarget() eth.L2BlockRef
 }
 
 type L1StateIface interface {
@@ -137,6 +136,7 @@ func NewDriver(driverCfg *Config, cfg *rollup.Config, l2 L2Chain, l1 L1Chain, al
 		sequencerActive:  make(chan chan bool, 10),
 		sequencerNotifs:  sequencerStateListener,
 		config:           cfg,
+		syncConfig:       syncCfg,
 		driverConfig:     driverCfg,
 		driverCtx:        driverCtx,
 		driverCancel:     driverCancel,
