@@ -10,7 +10,6 @@ import { ISemver } from "src/universal/ISemver.sol";
 /// @title CrossL2Outbox
 /// @notice The CrossL2Outbox registers cross-L2 messages, to be relayed to other chains.
 contract CrossL2Outbox is ISemver {
-
     /// @notice The collection of messages. Each registered message is set to true.
     /// message root => bool.
     mapping(bytes32 => bool) public sentMessages;
@@ -35,13 +34,20 @@ contract CrossL2Outbox is ISemver {
     }
 
     /// @notice The
-    function initiateMessage(bytes32 _targetChain, address _to, uint256 _gasLimit, bytes memory _data) external payable {
+    function initiateMessage(
+        bytes32 _targetChain,
+        address _to,
+        uint256 _gasLimit,
+        bytes memory _data
+    )
+        external
+        payable
+    {
         // TODO increment nonce
         // TODO construct sourceChain
         // TODO determine from as sender
         // TODO determine value from msg value
         //
-
         bytes32 messageRoot = Hashing.superchainMessageRoot(
             Types.SuperchainMessage({
                 nonce: msgNonce, // TODO format with version still?
