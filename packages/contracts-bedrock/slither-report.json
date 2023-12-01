@@ -1,236 +1,6 @@
 [
   {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.setOwner(address) (src/legacy/L1ChugSplashProxy.sol#138-140) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "function",
-    "name": "setOwner",
-    "start": 6890,
-    "length": 97,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.setOwner(address) (src/legacy/L1ChugSplashProxy.sol#138-140) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "function",
-    "name": "proxyCallIfNotOwner",
-    "start": 3867,
-    "length": 237,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.setOwner(address) (src/legacy/L1ChugSplashProxy.sol#138-140) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 9403,
-    "length": 29,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.target() (src/L1/DelayedVetoable.sol#108-110) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "target",
-    "start": 4421,
-    "length": 99,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.target() (src/L1/DelayedVetoable.sol#108-110) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "readOrHandle",
-    "start": 2953,
-    "length": 200,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.target() (src/L1/DelayedVetoable.sol#108-110) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
-    "start": 7723,
-    "length": 48,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.getImplementation() (src/legacy/L1ChugSplashProxy.sol#152-154) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "function",
-    "name": "getImplementation",
-    "start": 7519,
-    "length": 120,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.getImplementation() (src/legacy/L1ChugSplashProxy.sol#152-154) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "function",
-    "name": "proxyCallIfNotOwner",
-    "start": 3867,
-    "length": 237,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.getImplementation() (src/legacy/L1ChugSplashProxy.sol#152-154) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 9403,
-    "length": 29,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.implementation() (src/universal/Proxy.sol#97-99) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "implementation",
-    "start": 3967,
-    "length": 123,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.implementation() (src/universal/Proxy.sol#97-99) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "proxyCallIfNotAdmin",
-    "start": 1295,
-    "length": 237,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.implementation() (src/universal/Proxy.sol#97-99) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 5922,
-    "length": 29,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.upgradeToAndCall(address,bytes) (src/universal/Proxy.sol#67-81) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "upgradeToAndCall",
-    "start": 2959,
-    "length": 458,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.upgradeToAndCall(address,bytes) (src/universal/Proxy.sol#67-81) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "proxyCallIfNotAdmin",
-    "start": 1295,
-    "length": 237,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.upgradeToAndCall(address,bytes) (src/universal/Proxy.sol#67-81) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 5922,
-    "length": 29,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.vetoer() (src/L1/DelayedVetoable.sol#102-104) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "vetoer",
-    "start": 4223,
-    "length": 107,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.vetoer() (src/L1/DelayedVetoable.sol#102-104) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "readOrHandle",
-    "start": 2953,
-    "length": 200,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.vetoer() (src/L1/DelayedVetoable.sol#102-104) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
-    "start": 7723,
-    "length": 48,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) calls DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "readOrHandle",
-    "start": 2953,
-    "length": 200,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) calls DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "_handleCall",
-    "start": 5365,
-    "length": 2009,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) calls DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
-    "start": 7723,
-    "length": 48,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
+    "id": "39745c2ba61544fe128a7627287a023e043a087ee32100d6e0bfe5b404209670",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -242,6 +12,7 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "39745c2ba61544fe128a7627287a023e043a087ee32100d6e0bfe5b404209670",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -253,6 +24,7 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "39745c2ba61544fe128a7627287a023e043a087ee32100d6e0bfe5b404209670",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -264,54 +36,23 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "35ba264224a7ea48dc7cd248e60c07e4aae32401690ae90b217f017e3a1b8112",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) calls DelayedVetoable._forwardAndHalt(bytes32) (src/L1/DelayedVetoable.sol#184-197) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "description": "DelayedVetoable.vetoer() (src/L1/DelayedVetoable.sol#102-104) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
     "type": "function",
-    "name": "_handleCall",
-    "start": 5365,
-    "length": 2009,
+    "name": "vetoer",
+    "start": 4223,
+    "length": 107,
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "35ba264224a7ea48dc7cd248e60c07e4aae32401690ae90b217f017e3a1b8112",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) calls DelayedVetoable._forwardAndHalt(bytes32) (src/L1/DelayedVetoable.sol#184-197) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "_forwardAndHalt",
-    "start": 7454,
-    "length": 466,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) calls DelayedVetoable._forwardAndHalt(bytes32) (src/L1/DelayedVetoable.sol#184-197) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
-    "start": 7723,
-    "length": 48,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.queuedAt(bytes32) (src/L1/DelayedVetoable.sol#121-123) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
-    "type": "function",
-    "name": "queuedAt",
-    "start": 4865,
-    "length": 134,
-    "filename_relative": "src/L1/DelayedVetoable.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "DelayedVetoable.queuedAt(bytes32) (src/L1/DelayedVetoable.sol#121-123) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "description": "DelayedVetoable.vetoer() (src/L1/DelayedVetoable.sol#102-104) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
     "type": "function",
     "name": "readOrHandle",
     "start": 2953,
@@ -319,10 +60,11 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "35ba264224a7ea48dc7cd248e60c07e4aae32401690ae90b217f017e3a1b8112",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "DelayedVetoable.queuedAt(bytes32) (src/L1/DelayedVetoable.sol#121-123) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "description": "DelayedVetoable.vetoer() (src/L1/DelayedVetoable.sol#102-104) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
     "type": "node",
     "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
     "start": 7723,
@@ -330,171 +72,43 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "0d4915766a9a2117c655d6bc36e42594e95bbba8293384ec5b2c4904ff7a131f",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.setCode(bytes) (src/legacy/L1ChugSplashProxy.sol#96-124) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "description": "DelayedVetoable.target() (src/L1/DelayedVetoable.sol#108-110) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
     "type": "function",
-    "name": "setCode",
-    "start": 5022,
-    "length": 1285,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+    "name": "target",
+    "start": 4421,
+    "length": 99,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "0d4915766a9a2117c655d6bc36e42594e95bbba8293384ec5b2c4904ff7a131f",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.setCode(bytes) (src/legacy/L1ChugSplashProxy.sol#96-124) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "description": "DelayedVetoable.target() (src/L1/DelayedVetoable.sol#108-110) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
     "type": "function",
-    "name": "proxyCallIfNotOwner",
-    "start": 3867,
-    "length": 237,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+    "name": "readOrHandle",
+    "start": 2953,
+    "length": 200,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "0d4915766a9a2117c655d6bc36e42594e95bbba8293384ec5b2c4904ff7a131f",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.setCode(bytes) (src/legacy/L1ChugSplashProxy.sol#96-124) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "description": "DelayedVetoable.target() (src/L1/DelayedVetoable.sol#108-110) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
     "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 9403,
-    "length": 29,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
+    "start": 7723,
+    "length": 48,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.upgradeTo(address) (src/universal/Proxy.sol#59-61) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "upgradeTo",
-    "start": 2498,
-    "length": 131,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.upgradeTo(address) (src/universal/Proxy.sol#59-61) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "proxyCallIfNotAdmin",
-    "start": 1295,
-    "length": 237,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.upgradeTo(address) (src/universal/Proxy.sol#59-61) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 5922,
-    "length": 29,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.changeAdmin(address) (src/universal/Proxy.sol#85-87) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "changeAdmin",
-    "start": 3563,
-    "length": 109,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.changeAdmin(address) (src/universal/Proxy.sol#85-87) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "proxyCallIfNotAdmin",
-    "start": 1295,
-    "length": 237,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.changeAdmin(address) (src/universal/Proxy.sol#85-87) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 5922,
-    "length": 29,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.admin() (src/universal/Proxy.sol#91-93) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "admin",
-    "start": 3763,
-    "length": 105,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.admin() (src/universal/Proxy.sol#91-93) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "function",
-    "name": "proxyCallIfNotAdmin",
-    "start": 1295,
-    "length": 237,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "Proxy.admin() (src/universal/Proxy.sol#91-93) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 5922,
-    "length": 29,
-    "filename_relative": "src/universal/Proxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) calls L1ChugSplashProxy._doProxyCall() (src/legacy/L1ChugSplashProxy.sol#175-198) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "function",
-    "name": "proxyCallIfNotOwner",
-    "start": 3867,
-    "length": 237,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) calls L1ChugSplashProxy._doProxyCall() (src/legacy/L1ChugSplashProxy.sol#175-198) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "function",
-    "name": "_doProxyCall",
-    "start": 8349,
-    "length": 1099,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
-    "impact": "High",
-    "confidence": "Medium",
-    "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) calls L1ChugSplashProxy._doProxyCall() (src/legacy/L1ChugSplashProxy.sol#175-198) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
-    "type": "node",
-    "name": "return(uint256,uint256)(0x0,returndatasize()())",
-    "start": 9403,
-    "length": 29,
-    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
-  },
-  {
+    "id": "6cf6408cd8c7aedc182552abc25970ede8e033409292304b75b62006b0ad9491",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -506,6 +120,7 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "6cf6408cd8c7aedc182552abc25970ede8e033409292304b75b62006b0ad9491",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -517,6 +132,7 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "6cf6408cd8c7aedc182552abc25970ede8e033409292304b75b62006b0ad9491",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -528,21 +144,131 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "40da9d5df6ace4d9b107bfd175846739fa74c9a29d3b6d94d1b8ce9dfa13aa05",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.getOwner() (src/legacy/L1ChugSplashProxy.sol#145-147) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "description": "DelayedVetoable.queuedAt(bytes32) (src/L1/DelayedVetoable.sol#121-123) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
     "type": "function",
-    "name": "getOwner",
-    "start": 7200,
-    "length": 102,
+    "name": "queuedAt",
+    "start": 4865,
+    "length": 134,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "40da9d5df6ace4d9b107bfd175846739fa74c9a29d3b6d94d1b8ce9dfa13aa05",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable.queuedAt(bytes32) (src/L1/DelayedVetoable.sol#121-123) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "function",
+    "name": "readOrHandle",
+    "start": 2953,
+    "length": 200,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "40da9d5df6ace4d9b107bfd175846739fa74c9a29d3b6d94d1b8ce9dfa13aa05",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable.queuedAt(bytes32) (src/L1/DelayedVetoable.sol#121-123) calls DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
+    "start": 7723,
+    "length": 48,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "3f56bbd28cbf0b716ac3b0a61479a74ece176d3e2f2a53dd16994daa375a5468",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) calls DelayedVetoable._forwardAndHalt(bytes32) (src/L1/DelayedVetoable.sol#184-197) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "function",
+    "name": "_handleCall",
+    "start": 5365,
+    "length": 2009,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "3f56bbd28cbf0b716ac3b0a61479a74ece176d3e2f2a53dd16994daa375a5468",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) calls DelayedVetoable._forwardAndHalt(bytes32) (src/L1/DelayedVetoable.sol#184-197) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "function",
+    "name": "_forwardAndHalt",
+    "start": 7454,
+    "length": 466,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "3f56bbd28cbf0b716ac3b0a61479a74ece176d3e2f2a53dd16994daa375a5468",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) calls DelayedVetoable._forwardAndHalt(bytes32) (src/L1/DelayedVetoable.sol#184-197) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
+    "start": 7723,
+    "length": 48,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "38dac452acbdd7762ba9aa67e268c249835dad01e219ff2f50d93e4533aa7c52",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) calls DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "function",
+    "name": "readOrHandle",
+    "start": 2953,
+    "length": 200,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "38dac452acbdd7762ba9aa67e268c249835dad01e219ff2f50d93e4533aa7c52",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) calls DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "function",
+    "name": "_handleCall",
+    "start": 5365,
+    "length": 2009,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "38dac452acbdd7762ba9aa67e268c249835dad01e219ff2f50d93e4533aa7c52",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "DelayedVetoable.readOrHandle() (src/L1/DelayedVetoable.sol#67-74) calls DelayedVetoable._handleCall() (src/L1/DelayedVetoable.sol#133-181) which halt the execution return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata)) (src/L1/DelayedVetoable.sol#190)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(returndata + 0x20,mload(uint256)(returndata))",
+    "start": 7723,
+    "length": 48,
+    "filename_relative": "src/L1/DelayedVetoable.sol"
+  },
+  {
+    "id": "4ea64b8e0080de740c9c25e7841217213a680d8680654c8c9f744be145a1431a",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.setCode(bytes) (src/legacy/L1ChugSplashProxy.sol#96-124) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "setCode",
+    "start": 5022,
+    "length": 1285,
     "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
   },
   {
+    "id": "4ea64b8e0080de740c9c25e7841217213a680d8680654c8c9f744be145a1431a",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.getOwner() (src/legacy/L1ChugSplashProxy.sol#145-147) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "description": "L1ChugSplashProxy.setCode(bytes) (src/legacy/L1ChugSplashProxy.sol#96-124) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
     "type": "function",
     "name": "proxyCallIfNotOwner",
     "start": 3867,
@@ -550,10 +276,11 @@
     "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
   },
   {
+    "id": "4ea64b8e0080de740c9c25e7841217213a680d8680654c8c9f744be145a1431a",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
-    "description": "L1ChugSplashProxy.getOwner() (src/legacy/L1ChugSplashProxy.sol#145-147) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "description": "L1ChugSplashProxy.setCode(bytes) (src/legacy/L1ChugSplashProxy.sol#96-124) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
     "type": "node",
     "name": "return(uint256,uint256)(0x0,returndatasize()())",
     "start": 9403,
@@ -561,6 +288,7 @@
     "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
   },
   {
+    "id": "c116aac23f49ec7d5d6574972abfbf02d56d0521ea2285dc09d239a829e7d2af",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -572,6 +300,7 @@
     "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
   },
   {
+    "id": "c116aac23f49ec7d5d6574972abfbf02d56d0521ea2285dc09d239a829e7d2af",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -583,6 +312,7 @@
     "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
   },
   {
+    "id": "c116aac23f49ec7d5d6574972abfbf02d56d0521ea2285dc09d239a829e7d2af",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -594,6 +324,331 @@
     "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
   },
   {
+    "id": "0b6d0d6699a3fa3c78250e527327e43538895feecaa6cfd8a1793dfcc1d20c72",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.setOwner(address) (src/legacy/L1ChugSplashProxy.sol#138-140) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "setOwner",
+    "start": 6890,
+    "length": 97,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "0b6d0d6699a3fa3c78250e527327e43538895feecaa6cfd8a1793dfcc1d20c72",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.setOwner(address) (src/legacy/L1ChugSplashProxy.sol#138-140) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "proxyCallIfNotOwner",
+    "start": 3867,
+    "length": 237,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "0b6d0d6699a3fa3c78250e527327e43538895feecaa6cfd8a1793dfcc1d20c72",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.setOwner(address) (src/legacy/L1ChugSplashProxy.sol#138-140) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 9403,
+    "length": 29,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "98821b545d4849522091839fbd87144e6fcc256a73b9dd1817676bd127be6d8c",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.getOwner() (src/legacy/L1ChugSplashProxy.sol#145-147) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "getOwner",
+    "start": 7200,
+    "length": 102,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "98821b545d4849522091839fbd87144e6fcc256a73b9dd1817676bd127be6d8c",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.getOwner() (src/legacy/L1ChugSplashProxy.sol#145-147) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "proxyCallIfNotOwner",
+    "start": 3867,
+    "length": 237,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "98821b545d4849522091839fbd87144e6fcc256a73b9dd1817676bd127be6d8c",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.getOwner() (src/legacy/L1ChugSplashProxy.sol#145-147) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 9403,
+    "length": 29,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "11c5e51d3a0080a2b8f208ae6ec1a4c5617c6df83441ac96c67f322294f73f2b",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.getImplementation() (src/legacy/L1ChugSplashProxy.sol#152-154) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "getImplementation",
+    "start": 7519,
+    "length": 120,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "11c5e51d3a0080a2b8f208ae6ec1a4c5617c6df83441ac96c67f322294f73f2b",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.getImplementation() (src/legacy/L1ChugSplashProxy.sol#152-154) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "proxyCallIfNotOwner",
+    "start": 3867,
+    "length": 237,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "11c5e51d3a0080a2b8f208ae6ec1a4c5617c6df83441ac96c67f322294f73f2b",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.getImplementation() (src/legacy/L1ChugSplashProxy.sol#152-154) calls L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 9403,
+    "length": 29,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "648de83c485a902ab3df50445e187c6390720ae77705d14edbcc112e4fd8fe1a",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) calls L1ChugSplashProxy._doProxyCall() (src/legacy/L1ChugSplashProxy.sol#175-198) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "proxyCallIfNotOwner",
+    "start": 3867,
+    "length": 237,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "648de83c485a902ab3df50445e187c6390720ae77705d14edbcc112e4fd8fe1a",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) calls L1ChugSplashProxy._doProxyCall() (src/legacy/L1ChugSplashProxy.sol#175-198) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "function",
+    "name": "_doProxyCall",
+    "start": 8349,
+    "length": 1099,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "648de83c485a902ab3df50445e187c6390720ae77705d14edbcc112e4fd8fe1a",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "L1ChugSplashProxy.proxyCallIfNotOwner() (src/legacy/L1ChugSplashProxy.sol#64-71) calls L1ChugSplashProxy._doProxyCall() (src/legacy/L1ChugSplashProxy.sol#175-198) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/legacy/L1ChugSplashProxy.sol#196)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 9403,
+    "length": 29,
+    "filename_relative": "src/legacy/L1ChugSplashProxy.sol"
+  },
+  {
+    "id": "5dbecee956931b503b0ed4fbb7be62ba5f9f64bab10ac87b3c5ba4dab3694bec",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.upgradeTo(address) (src/universal/Proxy.sol#59-61) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "upgradeTo",
+    "start": 2498,
+    "length": 131,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "5dbecee956931b503b0ed4fbb7be62ba5f9f64bab10ac87b3c5ba4dab3694bec",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.upgradeTo(address) (src/universal/Proxy.sol#59-61) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "proxyCallIfNotAdmin",
+    "start": 1295,
+    "length": 237,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "5dbecee956931b503b0ed4fbb7be62ba5f9f64bab10ac87b3c5ba4dab3694bec",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.upgradeTo(address) (src/universal/Proxy.sol#59-61) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 5922,
+    "length": 29,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "2792614492719714cdcff9f7f8e1c602931befa4b0b2d9e0845a2fbf3964f949",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.upgradeToAndCall(address,bytes) (src/universal/Proxy.sol#67-81) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "upgradeToAndCall",
+    "start": 2959,
+    "length": 458,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "2792614492719714cdcff9f7f8e1c602931befa4b0b2d9e0845a2fbf3964f949",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.upgradeToAndCall(address,bytes) (src/universal/Proxy.sol#67-81) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "proxyCallIfNotAdmin",
+    "start": 1295,
+    "length": 237,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "2792614492719714cdcff9f7f8e1c602931befa4b0b2d9e0845a2fbf3964f949",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.upgradeToAndCall(address,bytes) (src/universal/Proxy.sol#67-81) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 5922,
+    "length": 29,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "5f00d9ac316494d702da33c92ba3267b0b2a5ab498b5c720e942923a75fd0f50",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.changeAdmin(address) (src/universal/Proxy.sol#85-87) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "changeAdmin",
+    "start": 3563,
+    "length": 109,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "5f00d9ac316494d702da33c92ba3267b0b2a5ab498b5c720e942923a75fd0f50",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.changeAdmin(address) (src/universal/Proxy.sol#85-87) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "proxyCallIfNotAdmin",
+    "start": 1295,
+    "length": 237,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "5f00d9ac316494d702da33c92ba3267b0b2a5ab498b5c720e942923a75fd0f50",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.changeAdmin(address) (src/universal/Proxy.sol#85-87) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 5922,
+    "length": 29,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "61c6823d9d96abad705c3e29c3768a5d2ade61e6f226c9241e6f3278063ab469",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.admin() (src/universal/Proxy.sol#91-93) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "admin",
+    "start": 3763,
+    "length": 105,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "61c6823d9d96abad705c3e29c3768a5d2ade61e6f226c9241e6f3278063ab469",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.admin() (src/universal/Proxy.sol#91-93) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "proxyCallIfNotAdmin",
+    "start": 1295,
+    "length": 237,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "61c6823d9d96abad705c3e29c3768a5d2ade61e6f226c9241e6f3278063ab469",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.admin() (src/universal/Proxy.sol#91-93) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 5922,
+    "length": 29,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "1e96b3f3be5c5b827284291533d15f8b70c3f8bc774e863359baa95195e8a79c",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.implementation() (src/universal/Proxy.sol#97-99) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "implementation",
+    "start": 3967,
+    "length": 123,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "1e96b3f3be5c5b827284291533d15f8b70c3f8bc774e863359baa95195e8a79c",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.implementation() (src/universal/Proxy.sol#97-99) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "function",
+    "name": "proxyCallIfNotAdmin",
+    "start": 1295,
+    "length": 237,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "1e96b3f3be5c5b827284291533d15f8b70c3f8bc774e863359baa95195e8a79c",
+    "impact": "High",
+    "confidence": "Medium",
+    "check": "incorrect-return",
+    "description": "Proxy.implementation() (src/universal/Proxy.sol#97-99) calls Proxy.proxyCallIfNotAdmin() (src/universal/Proxy.sol#26-33) which halt the execution return(uint256,uint256)(0x0,returndatasize()()) (src/universal/Proxy.sol#143)\n",
+    "type": "node",
+    "name": "return(uint256,uint256)(0x0,returndatasize()())",
+    "start": 5922,
+    "length": 29,
+    "filename_relative": "src/universal/Proxy.sol"
+  },
+  {
+    "id": "d14996b9cc4486d4926155fb1f3d0c1ffc8be9b4af43a61074039356721c7e45",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -605,6 +660,7 @@
     "filename_relative": "src/universal/Proxy.sol"
   },
   {
+    "id": "d14996b9cc4486d4926155fb1f3d0c1ffc8be9b4af43a61074039356721c7e45",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -616,6 +672,7 @@
     "filename_relative": "src/universal/Proxy.sol"
   },
   {
+    "id": "d14996b9cc4486d4926155fb1f3d0c1ffc8be9b4af43a61074039356721c7e45",
     "impact": "High",
     "confidence": "Medium",
     "check": "incorrect-return",
@@ -627,6 +684,7 @@
     "filename_relative": "src/universal/Proxy.sol"
   },
   {
+    "id": "59de2765a8d4c83f785e9d4bd924420908fc85764595170b8269377728421551",
     "impact": "High",
     "confidence": "High",
     "check": "shadowing-state",
@@ -638,6 +696,7 @@
     "filename_relative": "src/EAS/EAS.sol"
   },
   {
+    "id": "59de2765a8d4c83f785e9d4bd924420908fc85764595170b8269377728421551",
     "impact": "High",
     "confidence": "High",
     "check": "shadowing-state",
@@ -649,6 +708,7 @@
     "filename_relative": "src/EAS/eip1271/EIP1271Verifier.sol"
   },
   {
+    "id": "89460308ae3bd86a612657eb7bfe28221ced6a7a7fe723ec2a19149bfc819cb5",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -660,6 +720,7 @@
     "filename_relative": "src/L1/L2OutputOracle.sol"
   },
   {
+    "id": "89460308ae3bd86a612657eb7bfe28221ced6a7a7fe723ec2a19149bfc819cb5",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -671,6 +732,7 @@
     "filename_relative": "src/L1/L2OutputOracle.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -682,6 +744,7 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -693,6 +756,7 @@
     "filename_relative": "src/dispute/interfaces/IFaultDisputeGame.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -704,6 +768,7 @@
     "filename_relative": "src/dispute/interfaces/IFaultDisputeGame.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -715,6 +780,7 @@
     "filename_relative": "src/dispute/interfaces/IFaultDisputeGame.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -726,6 +792,7 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -737,6 +804,7 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -748,6 +816,7 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "99c01b42fc96fd11586bce47c0e6edbb6697d3feda3cfe6ede5b03b79ac5af81",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -759,6 +828,7 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -766,10 +836,11 @@
     "type": "contract",
     "name": "OutputBisectionGame",
     "start": 1092,
-    "length": 25331,
+    "length": 25329,
     "filename_relative": "src/dispute/OutputBisectionGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -781,6 +852,7 @@
     "filename_relative": "src/dispute/interfaces/IOutputBisectionGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -792,6 +864,7 @@
     "filename_relative": "src/dispute/interfaces/IOutputBisectionGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -803,50 +876,55 @@
     "filename_relative": "src/dispute/interfaces/IOutputBisectionGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
     "description": "Contract locking ether found:\n\tContract OutputBisectionGame (src/dispute/OutputBisectionGame.sol#24-551) has payable functions:\n\t - IOutputBisectionGame.attack(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#30)\n\t - IOutputBisectionGame.defend(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#35)\n\t - IOutputBisectionGame.resolveClaim(uint256) (src/dispute/interfaces/IOutputBisectionGame.sol#62)\n\t - OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t - OutputBisectionGame.attack(uint256,Claim) (src/dispute/OutputBisectionGame.sol#273-275)\n\t - OutputBisectionGame.defend(uint256,Claim) (src/dispute/OutputBisectionGame.sol#278-280)\n\t - OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\tBut does not have a function to withdraw the ether\n",
     "type": "function",
     "name": "move",
-    "start": 9135,
+    "start": 9133,
     "length": 4228,
     "filename_relative": "src/dispute/OutputBisectionGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
     "description": "Contract locking ether found:\n\tContract OutputBisectionGame (src/dispute/OutputBisectionGame.sol#24-551) has payable functions:\n\t - IOutputBisectionGame.attack(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#30)\n\t - IOutputBisectionGame.defend(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#35)\n\t - IOutputBisectionGame.resolveClaim(uint256) (src/dispute/interfaces/IOutputBisectionGame.sol#62)\n\t - OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t - OutputBisectionGame.attack(uint256,Claim) (src/dispute/OutputBisectionGame.sol#273-275)\n\t - OutputBisectionGame.defend(uint256,Claim) (src/dispute/OutputBisectionGame.sol#278-280)\n\t - OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\tBut does not have a function to withdraw the ether\n",
     "type": "function",
     "name": "attack",
-    "start": 13410,
+    "start": 13408,
     "length": 118,
     "filename_relative": "src/dispute/OutputBisectionGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
     "description": "Contract locking ether found:\n\tContract OutputBisectionGame (src/dispute/OutputBisectionGame.sol#24-551) has payable functions:\n\t - IOutputBisectionGame.attack(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#30)\n\t - IOutputBisectionGame.defend(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#35)\n\t - IOutputBisectionGame.resolveClaim(uint256) (src/dispute/interfaces/IOutputBisectionGame.sol#62)\n\t - OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t - OutputBisectionGame.attack(uint256,Claim) (src/dispute/OutputBisectionGame.sol#273-275)\n\t - OutputBisectionGame.defend(uint256,Claim) (src/dispute/OutputBisectionGame.sol#278-280)\n\t - OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\tBut does not have a function to withdraw the ether\n",
     "type": "function",
     "name": "defend",
-    "start": 13575,
+    "start": 13573,
     "length": 119,
     "filename_relative": "src/dispute/OutputBisectionGame.sol"
   },
   {
+    "id": "a163cee00f9eadca42657b9e68feeb6933902bdb0d38f8fa1490a82a355b68dc",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
     "description": "Contract locking ether found:\n\tContract OutputBisectionGame (src/dispute/OutputBisectionGame.sol#24-551) has payable functions:\n\t - IOutputBisectionGame.attack(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#30)\n\t - IOutputBisectionGame.defend(uint256,Claim) (src/dispute/interfaces/IOutputBisectionGame.sol#35)\n\t - IOutputBisectionGame.resolveClaim(uint256) (src/dispute/interfaces/IOutputBisectionGame.sol#62)\n\t - OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t - OutputBisectionGame.attack(uint256,Claim) (src/dispute/OutputBisectionGame.sol#273-275)\n\t - OutputBisectionGame.defend(uint256,Claim) (src/dispute/OutputBisectionGame.sol#278-280)\n\t - OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\tBut does not have a function to withdraw the ether\n",
     "type": "function",
     "name": "resolveClaim",
-    "start": 16915,
+    "start": 16913,
     "length": 2043,
     "filename_relative": "src/dispute/OutputBisectionGame.sol"
   },
   {
+    "id": "c0920fe4b6b04a2b81f69b85402d465719d06978441052f49a6582415934a1bf",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -858,6 +936,7 @@
     "filename_relative": "src/legacy/L1BlockNumber.sol"
   },
   {
+    "id": "c0920fe4b6b04a2b81f69b85402d465719d06978441052f49a6582415934a1bf",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -869,6 +948,7 @@
     "filename_relative": "src/legacy/L1BlockNumber.sol"
   },
   {
+    "id": "c0920fe4b6b04a2b81f69b85402d465719d06978441052f49a6582415934a1bf",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -880,6 +960,7 @@
     "filename_relative": "src/legacy/L1BlockNumber.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -891,6 +972,7 @@
     "filename_relative": "src/EAS/resolver/SchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -902,6 +984,7 @@
     "filename_relative": "src/EAS/resolver/ISchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -913,6 +996,7 @@
     "filename_relative": "src/EAS/resolver/ISchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -924,6 +1008,7 @@
     "filename_relative": "src/EAS/resolver/ISchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -935,6 +1020,7 @@
     "filename_relative": "src/EAS/resolver/ISchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -946,6 +1032,7 @@
     "filename_relative": "src/EAS/resolver/SchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -957,6 +1044,7 @@
     "filename_relative": "src/EAS/resolver/SchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -968,6 +1056,7 @@
     "filename_relative": "src/EAS/resolver/SchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -979,6 +1068,7 @@
     "filename_relative": "src/EAS/resolver/SchemaResolver.sol"
   },
   {
+    "id": "3e52f3459d6607e6494e893c33e98bfaee52639c20f8e8366a39b97d30efeb9d",
     "impact": "Medium",
     "confidence": "High",
     "check": "locked-ether",
@@ -990,72 +1080,7 @@
     "filename_relative": "src/EAS/resolver/SchemaResolver.sol"
   },
   {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "reentrancy-no-eth",
-    "description": "Reentrancy in OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183):\n\tExternal calls:\n\t- validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim) (src/dispute/OutputBisectionGame.sol#176)\n\tState variables written after the call(s):\n\t- parent.countered = true (src/dispute/OutputBisectionGame.sol#182)\n\tOutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71) can be used in cross function reentrancies:\n\t- OutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71)\n\t- OutputBisectionGame.claimDataLen() (src/dispute/OutputBisectionGame.sol#455-457)\n\t- OutputBisectionGame.findStartingAndDisputedOutputs(uint256) (src/dispute/OutputBisectionGame.sol#500-550)\n\t- OutputBisectionGame.findTraceAncestor(Position,uint256) (src/dispute/OutputBisectionGame.sol#483-493)\n\t- OutputBisectionGame.initialize() (src/dispute/OutputBisectionGame.sol#426-452)\n\t- OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t- OutputBisectionGame.resolve() (src/dispute/OutputBisectionGame.sol#335-347)\n\t- OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\t- OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183)\n",
-    "type": "function",
-    "name": "step",
-    "start": 4835,
-    "length": 3995,
-    "filename_relative": "src/dispute/OutputBisectionGame.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "reentrancy-no-eth",
-    "description": "Reentrancy in OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183):\n\tExternal calls:\n\t- validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim) (src/dispute/OutputBisectionGame.sol#176)\n\tState variables written after the call(s):\n\t- parent.countered = true (src/dispute/OutputBisectionGame.sol#182)\n\tOutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71) can be used in cross function reentrancies:\n\t- OutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71)\n\t- OutputBisectionGame.claimDataLen() (src/dispute/OutputBisectionGame.sol#455-457)\n\t- OutputBisectionGame.findStartingAndDisputedOutputs(uint256) (src/dispute/OutputBisectionGame.sol#500-550)\n\t- OutputBisectionGame.findTraceAncestor(Position,uint256) (src/dispute/OutputBisectionGame.sol#483-493)\n\t- OutputBisectionGame.initialize() (src/dispute/OutputBisectionGame.sol#426-452)\n\t- OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t- OutputBisectionGame.resolve() (src/dispute/OutputBisectionGame.sol#335-347)\n\t- OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\t- OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183)\n",
-    "type": "node",
-    "name": "validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim)",
-    "start": 8388,
-    "length": 83,
-    "filename_relative": "src/dispute/OutputBisectionGame.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "reentrancy-no-eth",
-    "description": "Reentrancy in OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183):\n\tExternal calls:\n\t- validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim) (src/dispute/OutputBisectionGame.sol#176)\n\tState variables written after the call(s):\n\t- parent.countered = true (src/dispute/OutputBisectionGame.sol#182)\n\tOutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71) can be used in cross function reentrancies:\n\t- OutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71)\n\t- OutputBisectionGame.claimDataLen() (src/dispute/OutputBisectionGame.sol#455-457)\n\t- OutputBisectionGame.findStartingAndDisputedOutputs(uint256) (src/dispute/OutputBisectionGame.sol#500-550)\n\t- OutputBisectionGame.findTraceAncestor(Position,uint256) (src/dispute/OutputBisectionGame.sol#483-493)\n\t- OutputBisectionGame.initialize() (src/dispute/OutputBisectionGame.sol#426-452)\n\t- OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t- OutputBisectionGame.resolve() (src/dispute/OutputBisectionGame.sol#335-347)\n\t- OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\t- OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183)\n",
-    "type": "node",
-    "name": "parent.countered = true",
-    "start": 8800,
-    "length": 23,
-    "filename_relative": "src/dispute/OutputBisectionGame.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "reentrancy-no-eth",
-    "description": "Reentrancy in TransferOnion.peel(TransferOnion.Layer[]) (src/periphery/TransferOnion.sol#44-70):\n\tExternal calls:\n\t- TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount) (src/periphery/TransferOnion.sol#61)\n\tState variables written after the call(s):\n\t- shell = tempShell (src/periphery/TransferOnion.sol#69)\n\tTransferOnion.shell (src/periphery/TransferOnion.sol#30) can be used in cross function reentrancies:\n\t- TransferOnion.constructor(ERC20,address,bytes32) (src/periphery/TransferOnion.sol#36-40)\n\t- TransferOnion.shell (src/periphery/TransferOnion.sol#30)\n",
-    "type": "function",
-    "name": "peel",
-    "start": 1616,
-    "length": 885,
-    "filename_relative": "src/periphery/TransferOnion.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "reentrancy-no-eth",
-    "description": "Reentrancy in TransferOnion.peel(TransferOnion.Layer[]) (src/periphery/TransferOnion.sol#44-70):\n\tExternal calls:\n\t- TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount) (src/periphery/TransferOnion.sol#61)\n\tState variables written after the call(s):\n\t- shell = tempShell (src/periphery/TransferOnion.sol#69)\n\tTransferOnion.shell (src/periphery/TransferOnion.sol#30) can be used in cross function reentrancies:\n\t- TransferOnion.constructor(ERC20,address,bytes32) (src/periphery/TransferOnion.sol#36-40)\n\t- TransferOnion.shell (src/periphery/TransferOnion.sol#30)\n",
-    "type": "node",
-    "name": "TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount)",
-    "start": 2282,
-    "length": 61,
-    "filename_relative": "src/periphery/TransferOnion.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "reentrancy-no-eth",
-    "description": "Reentrancy in TransferOnion.peel(TransferOnion.Layer[]) (src/periphery/TransferOnion.sol#44-70):\n\tExternal calls:\n\t- TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount) (src/periphery/TransferOnion.sol#61)\n\tState variables written after the call(s):\n\t- shell = tempShell (src/periphery/TransferOnion.sol#69)\n\tTransferOnion.shell (src/periphery/TransferOnion.sol#30) can be used in cross function reentrancies:\n\t- TransferOnion.constructor(ERC20,address,bytes32) (src/periphery/TransferOnion.sol#36-40)\n\t- TransferOnion.shell (src/periphery/TransferOnion.sol#30)\n",
-    "type": "node",
-    "name": "shell = tempShell",
-    "start": 2477,
-    "length": 17,
-    "filename_relative": "src/periphery/TransferOnion.sol"
-  },
-  {
+    "id": "14134bc23d372275d187f91848cac770b21d8451fa7b979380dc2ac94588945b",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "reentrancy-no-eth",
@@ -1067,6 +1092,7 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "14134bc23d372275d187f91848cac770b21d8451fa7b979380dc2ac94588945b",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "reentrancy-no-eth",
@@ -1078,6 +1104,7 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "14134bc23d372275d187f91848cac770b21d8451fa7b979380dc2ac94588945b",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "reentrancy-no-eth",
@@ -1089,6 +1116,7 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "14134bc23d372275d187f91848cac770b21d8451fa7b979380dc2ac94588945b",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "reentrancy-no-eth",
@@ -1100,6 +1128,43 @@
     "filename_relative": "src/L1/DelayedVetoable.sol"
   },
   {
+    "id": "1349b68c3b08ecdf27782bd74d9fecadf1739eef738171cbbba403c77a29f424",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "reentrancy-no-eth",
+    "description": "Reentrancy in TransferOnion.peel(TransferOnion.Layer[]) (src/periphery/TransferOnion.sol#44-70):\n\tExternal calls:\n\t- TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount) (src/periphery/TransferOnion.sol#61)\n\tState variables written after the call(s):\n\t- shell = tempShell (src/periphery/TransferOnion.sol#69)\n\tTransferOnion.shell (src/periphery/TransferOnion.sol#30) can be used in cross function reentrancies:\n\t- TransferOnion.constructor(ERC20,address,bytes32) (src/periphery/TransferOnion.sol#36-40)\n\t- TransferOnion.shell (src/periphery/TransferOnion.sol#30)\n",
+    "type": "function",
+    "name": "peel",
+    "start": 1616,
+    "length": 885,
+    "filename_relative": "src/periphery/TransferOnion.sol"
+  },
+  {
+    "id": "1349b68c3b08ecdf27782bd74d9fecadf1739eef738171cbbba403c77a29f424",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "reentrancy-no-eth",
+    "description": "Reentrancy in TransferOnion.peel(TransferOnion.Layer[]) (src/periphery/TransferOnion.sol#44-70):\n\tExternal calls:\n\t- TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount) (src/periphery/TransferOnion.sol#61)\n\tState variables written after the call(s):\n\t- shell = tempShell (src/periphery/TransferOnion.sol#69)\n\tTransferOnion.shell (src/periphery/TransferOnion.sol#30) can be used in cross function reentrancies:\n\t- TransferOnion.constructor(ERC20,address,bytes32) (src/periphery/TransferOnion.sol#36-40)\n\t- TransferOnion.shell (src/periphery/TransferOnion.sol#30)\n",
+    "type": "node",
+    "name": "TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount)",
+    "start": 2282,
+    "length": 61,
+    "filename_relative": "src/periphery/TransferOnion.sol"
+  },
+  {
+    "id": "1349b68c3b08ecdf27782bd74d9fecadf1739eef738171cbbba403c77a29f424",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "reentrancy-no-eth",
+    "description": "Reentrancy in TransferOnion.peel(TransferOnion.Layer[]) (src/periphery/TransferOnion.sol#44-70):\n\tExternal calls:\n\t- TOKEN.safeTransferFrom(SENDER,layer.recipient,layer.amount) (src/periphery/TransferOnion.sol#61)\n\tState variables written after the call(s):\n\t- shell = tempShell (src/periphery/TransferOnion.sol#69)\n\tTransferOnion.shell (src/periphery/TransferOnion.sol#30) can be used in cross function reentrancies:\n\t- TransferOnion.constructor(ERC20,address,bytes32) (src/periphery/TransferOnion.sol#36-40)\n\t- TransferOnion.shell (src/periphery/TransferOnion.sol#30)\n",
+    "type": "node",
+    "name": "shell = tempShell",
+    "start": 2477,
+    "length": 17,
+    "filename_relative": "src/periphery/TransferOnion.sol"
+  },
+  {
+    "id": "67c45637836e238939619738eb44f982fc11d9e4ad11268d11b2434be2c3df32",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "reentrancy-no-eth",
@@ -1111,6 +1176,7 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "67c45637836e238939619738eb44f982fc11d9e4ad11268d11b2434be2c3df32",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "reentrancy-no-eth",
@@ -1122,6 +1188,7 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "67c45637836e238939619738eb44f982fc11d9e4ad11268d11b2434be2c3df32",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "reentrancy-no-eth",
@@ -1133,6 +1200,91 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "087bb59a645652a444627da202a3d738165dd235f981381210755e9a19629068",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "reentrancy-no-eth",
+    "description": "Reentrancy in OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183):\n\tExternal calls:\n\t- validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim) (src/dispute/OutputBisectionGame.sol#176)\n\tState variables written after the call(s):\n\t- parent.countered = true (src/dispute/OutputBisectionGame.sol#182)\n\tOutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71) can be used in cross function reentrancies:\n\t- OutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71)\n\t- OutputBisectionGame.claimDataLen() (src/dispute/OutputBisectionGame.sol#455-457)\n\t- OutputBisectionGame.findStartingAndDisputedOutputs(uint256) (src/dispute/OutputBisectionGame.sol#500-550)\n\t- OutputBisectionGame.findTraceAncestor(Position,uint256) (src/dispute/OutputBisectionGame.sol#483-493)\n\t- OutputBisectionGame.initialize() (src/dispute/OutputBisectionGame.sol#426-452)\n\t- OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t- OutputBisectionGame.resolve() (src/dispute/OutputBisectionGame.sol#335-347)\n\t- OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\t- OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183)\n",
+    "type": "function",
+    "name": "step",
+    "start": 4833,
+    "length": 3995,
+    "filename_relative": "src/dispute/OutputBisectionGame.sol"
+  },
+  {
+    "id": "087bb59a645652a444627da202a3d738165dd235f981381210755e9a19629068",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "reentrancy-no-eth",
+    "description": "Reentrancy in OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183):\n\tExternal calls:\n\t- validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim) (src/dispute/OutputBisectionGame.sol#176)\n\tState variables written after the call(s):\n\t- parent.countered = true (src/dispute/OutputBisectionGame.sol#182)\n\tOutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71) can be used in cross function reentrancies:\n\t- OutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71)\n\t- OutputBisectionGame.claimDataLen() (src/dispute/OutputBisectionGame.sol#455-457)\n\t- OutputBisectionGame.findStartingAndDisputedOutputs(uint256) (src/dispute/OutputBisectionGame.sol#500-550)\n\t- OutputBisectionGame.findTraceAncestor(Position,uint256) (src/dispute/OutputBisectionGame.sol#483-493)\n\t- OutputBisectionGame.initialize() (src/dispute/OutputBisectionGame.sol#426-452)\n\t- OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t- OutputBisectionGame.resolve() (src/dispute/OutputBisectionGame.sol#335-347)\n\t- OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\t- OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183)\n",
+    "type": "node",
+    "name": "validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim)",
+    "start": 8386,
+    "length": 83,
+    "filename_relative": "src/dispute/OutputBisectionGame.sol"
+  },
+  {
+    "id": "087bb59a645652a444627da202a3d738165dd235f981381210755e9a19629068",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "reentrancy-no-eth",
+    "description": "Reentrancy in OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183):\n\tExternal calls:\n\t- validStep = VM.step(_stateData,_proof,uuid) == Claim.unwrap(postState.claim) (src/dispute/OutputBisectionGame.sol#176)\n\tState variables written after the call(s):\n\t- parent.countered = true (src/dispute/OutputBisectionGame.sol#182)\n\tOutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71) can be used in cross function reentrancies:\n\t- OutputBisectionGame.claimData (src/dispute/OutputBisectionGame.sol#71)\n\t- OutputBisectionGame.claimDataLen() (src/dispute/OutputBisectionGame.sol#455-457)\n\t- OutputBisectionGame.findStartingAndDisputedOutputs(uint256) (src/dispute/OutputBisectionGame.sol#500-550)\n\t- OutputBisectionGame.findTraceAncestor(Position,uint256) (src/dispute/OutputBisectionGame.sol#483-493)\n\t- OutputBisectionGame.initialize() (src/dispute/OutputBisectionGame.sol#426-452)\n\t- OutputBisectionGame.move(uint256,Claim,bool) (src/dispute/OutputBisectionGame.sol#189-270)\n\t- OutputBisectionGame.resolve() (src/dispute/OutputBisectionGame.sol#335-347)\n\t- OutputBisectionGame.resolveClaim(uint256) (src/dispute/OutputBisectionGame.sol#350-400)\n\t- OutputBisectionGame.step(uint256,bool,bytes,bytes) (src/dispute/OutputBisectionGame.sol#119-183)\n",
+    "type": "node",
+    "name": "parent.countered = true",
+    "start": 8798,
+    "length": 23,
+    "filename_relative": "src/dispute/OutputBisectionGame.sol"
+  },
+  {
+    "id": "138bfe0b87067edda58ea1bb24d88b46c26dd0da82a6818486cf28b4cb185d01",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "tx-origin",
+    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-306) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#279)\n",
+    "type": "function",
+    "name": "relayMessage",
+    "start": 10427,
+    "length": 4822,
+    "filename_relative": "src/universal/CrossDomainMessenger.sol"
+  },
+  {
+    "id": "138bfe0b87067edda58ea1bb24d88b46c26dd0da82a6818486cf28b4cb185d01",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "tx-origin",
+    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-306) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#279)\n",
+    "type": "node",
+    "name": "tx.origin == Constants.ESTIMATION_ADDRESS",
+    "start": 14024,
+    "length": 41,
+    "filename_relative": "src/universal/CrossDomainMessenger.sol"
+  },
+  {
+    "id": "37ae06d1257a210b94d7ebd3a411a5e657e4fe6e09bdcb5405f76bcf5b2e6496",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "tx-origin",
+    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-306) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#302)\n",
+    "type": "function",
+    "name": "relayMessage",
+    "start": 10427,
+    "length": 4822,
+    "filename_relative": "src/universal/CrossDomainMessenger.sol"
+  },
+  {
+    "id": "37ae06d1257a210b94d7ebd3a411a5e657e4fe6e09bdcb5405f76bcf5b2e6496",
+    "impact": "Medium",
+    "confidence": "Medium",
+    "check": "tx-origin",
+    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-306) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#302)\n",
+    "type": "node",
+    "name": "tx.origin == Constants.ESTIMATION_ADDRESS",
+    "start": 15102,
+    "length": 41,
+    "filename_relative": "src/universal/CrossDomainMessenger.sol"
+  },
+  {
+    "id": "abea83e11d409c6cde17efdfe955c3a9f5ab92a0bc6720d631933eb091de0c77",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "tx-origin",
@@ -1144,6 +1296,7 @@
     "filename_relative": "src/L1/OptimismPortal.sol"
   },
   {
+    "id": "abea83e11d409c6cde17efdfe955c3a9f5ab92a0bc6720d631933eb091de0c77",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "tx-origin",
@@ -1155,50 +1308,19 @@
     "filename_relative": "src/L1/OptimismPortal.sol"
   },
   {
+    "id": "c27cc53c209fdabd18ab2c8f2cddf2053516bcaaa39122d29702ac143d835a2f",
     "impact": "Medium",
     "confidence": "Medium",
-    "check": "tx-origin",
-    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-302) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#275)\n",
-    "type": "function",
-    "name": "relayMessage",
-    "start": 10420,
-    "length": 4586,
-    "filename_relative": "src/universal/CrossDomainMessenger.sol"
+    "check": "uninitialized-local",
+    "description": "OutputBisectionGame.move(uint256,Claim,bool).grandparentClock (src/dispute/OutputBisectionGame.sol#218) is a local variable never initialized\n",
+    "type": "variable",
+    "name": "grandparentClock",
+    "start": 11023,
+    "length": 22,
+    "filename_relative": "src/dispute/OutputBisectionGame.sol"
   },
   {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "tx-origin",
-    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-302) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#275)\n",
-    "type": "node",
-    "name": "tx.origin == Constants.ESTIMATION_ADDRESS",
-    "start": 13781,
-    "length": 41,
-    "filename_relative": "src/universal/CrossDomainMessenger.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "tx-origin",
-    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-302) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#298)\n",
-    "type": "function",
-    "name": "relayMessage",
-    "start": 10420,
-    "length": 4586,
-    "filename_relative": "src/universal/CrossDomainMessenger.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "tx-origin",
-    "description": "CrossDomainMessenger.relayMessage(uint256,address,address,uint256,uint256,bytes) (src/universal/CrossDomainMessenger.sol#211-302) uses tx.origin for authorization: tx.origin == Constants.ESTIMATION_ADDRESS (src/universal/CrossDomainMessenger.sol#298)\n",
-    "type": "node",
-    "name": "tx.origin == Constants.ESTIMATION_ADDRESS",
-    "start": 14859,
-    "length": 41,
-    "filename_relative": "src/universal/CrossDomainMessenger.sol"
-  },
-  {
+    "id": "0369380fef18a61639eac6a12773df792e9969e7bb20eddde54ccf3a263a0987",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "uninitialized-local",
@@ -1210,28 +1332,19 @@
     "filename_relative": "src/dispute/FaultDisputeGame.sol"
   },
   {
+    "id": "b806faf2b63e910b939c5ff4b591b1109887080a010986f2af2c30787dbc2a10",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "uninitialized-local",
     "description": "OutputBisectionGame.findStartingAndDisputedOutputs(uint256).currentDepth (src/dispute/OutputBisectionGame.sol#518) is a local variable never initialized\n",
     "type": "variable",
     "name": "currentDepth",
-    "start": 24494,
+    "start": 24492,
     "length": 20,
     "filename_relative": "src/dispute/OutputBisectionGame.sol"
   },
   {
-    "impact": "Medium",
-    "confidence": "Medium",
-    "check": "uninitialized-local",
-    "description": "OutputBisectionGame.move(uint256,Claim,bool).grandparentClock (src/dispute/OutputBisectionGame.sol#218) is a local variable never initialized\n",
-    "type": "variable",
-    "name": "grandparentClock",
-    "start": 11025,
-    "length": 22,
-    "filename_relative": "src/dispute/OutputBisectionGame.sol"
-  },
-  {
+    "id": "aab8d299347b94fcb3d6e4656199ef10dbdb1e566a80f59f35161987df8f2ed2",
     "impact": "Medium",
     "confidence": "Medium",
     "check": "uninitialized-local",
@@ -1243,17 +1356,43 @@
     "filename_relative": "src/EAS/EAS.sol"
   },
   {
+    "id": "9ad67b006fc175893dd26d35a020a52dd8524709d87cca61212ee0e147eb992b",
     "impact": "Medium",
-    "confidence": "Medium",
-    "check": "uninitialized-local",
-    "description": "EAS._attest(bytes32,AttestationRequestData[],address,uint256,bool).uid (src/EAS/EAS.sol#442) is a local variable never initialized\n",
+    "confidence": "High",
+    "check": "write-after-write",
+    "description": "CrossDomainMessenger.xDomainMsgSender (src/universal/CrossDomainMessenger.sol#129) is written in both\n\txDomainMsgSender = _sender (src/universal/CrossDomainMessenger.sol#286)\n\txDomainMsgSender = Constants.DEFAULT_L2_SENDER (src/universal/CrossDomainMessenger.sol#288)\n",
     "type": "variable",
-    "name": "uid",
-    "start": 17694,
-    "length": 11,
-    "filename_relative": "src/EAS/EAS.sol"
+    "name": "xDomainMsgSender",
+    "start": 5784,
+    "length": 33,
+    "filename_relative": "src/universal/CrossDomainMessenger.sol"
   },
   {
+    "id": "9ad67b006fc175893dd26d35a020a52dd8524709d87cca61212ee0e147eb992b",
+    "impact": "Medium",
+    "confidence": "High",
+    "check": "write-after-write",
+    "description": "CrossDomainMessenger.xDomainMsgSender (src/universal/CrossDomainMessenger.sol#129) is written in both\n\txDomainMsgSender = _sender (src/universal/CrossDomainMessenger.sol#286)\n\txDomainMsgSender = Constants.DEFAULT_L2_SENDER (src/universal/CrossDomainMessenger.sol#288)\n",
+    "type": "node",
+    "name": "xDomainMsgSender = _sender",
+    "start": 14196,
+    "length": 26,
+    "filename_relative": "src/universal/CrossDomainMessenger.sol"
+  },
+  {
+    "id": "9ad67b006fc175893dd26d35a020a52dd8524709d87cca61212ee0e147eb992b",
+    "impact": "Medium",
+    "confidence": "High",
+    "check": "write-after-write",
+    "description": "CrossDomainMessenger.xDomainMsgSender (src/universal/CrossDomainMessenger.sol#129) is written in both\n\txDomainMsgSender = _sender (src/universal/CrossDomainMessenger.sol#286)\n\txDomainMsgSender = Constants.DEFAULT_L2_SENDER (src/universal/CrossDomainMessenger.sol#288)\n",
+    "type": "node",
+    "name": "xDomainMsgSender = Constants.DEFAULT_L2_SENDER",
+    "start": 14329,
+    "length": 46,
+    "filename_relative": "src/universal/CrossDomainMessenger.sol"
+  },
+  {
+    "id": "31cd4889732cd7c264fbe798960cae4b02c6d6f07d31596ceba32a2aaf3db8f7",
     "impact": "Medium",
     "confidence": "High",
     "check": "write-after-write",
@@ -1265,6 +1404,7 @@
     "filename_relative": "src/L1/OptimismPortal.sol"
   },
   {
+    "id": "31cd4889732cd7c264fbe798960cae4b02c6d6f07d31596ceba32a2aaf3db8f7",
     "impact": "Medium",
     "confidence": "High",
     "check": "write-after-write",
@@ -1276,6 +1416,7 @@
     "filename_relative": "src/L1/OptimismPortal.sol"
   },
   {
+    "id": "31cd4889732cd7c264fbe798960cae4b02c6d6f07d31596ceba32a2aaf3db8f7",
     "impact": "Medium",
     "confidence": "High",
     "check": "write-after-write",
@@ -1285,38 +1426,5 @@
     "start": 17344,
     "length": 38,
     "filename_relative": "src/L1/OptimismPortal.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "High",
-    "check": "write-after-write",
-    "description": "CrossDomainMessenger.xDomainMsgSender (src/universal/CrossDomainMessenger.sol#129) is written in both\n\txDomainMsgSender = _sender (src/universal/CrossDomainMessenger.sol#282)\n\txDomainMsgSender = Constants.DEFAULT_L2_SENDER (src/universal/CrossDomainMessenger.sol#284)\n",
-    "type": "variable",
-    "name": "xDomainMsgSender",
-    "start": 5784,
-    "length": 33,
-    "filename_relative": "src/universal/CrossDomainMessenger.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "High",
-    "check": "write-after-write",
-    "description": "CrossDomainMessenger.xDomainMsgSender (src/universal/CrossDomainMessenger.sol#129) is written in both\n\txDomainMsgSender = _sender (src/universal/CrossDomainMessenger.sol#282)\n\txDomainMsgSender = Constants.DEFAULT_L2_SENDER (src/universal/CrossDomainMessenger.sol#284)\n",
-    "type": "node",
-    "name": "xDomainMsgSender = _sender",
-    "start": 13953,
-    "length": 26,
-    "filename_relative": "src/universal/CrossDomainMessenger.sol"
-  },
-  {
-    "impact": "Medium",
-    "confidence": "High",
-    "check": "write-after-write",
-    "description": "CrossDomainMessenger.xDomainMsgSender (src/universal/CrossDomainMessenger.sol#129) is written in both\n\txDomainMsgSender = _sender (src/universal/CrossDomainMessenger.sol#282)\n\txDomainMsgSender = Constants.DEFAULT_L2_SENDER (src/universal/CrossDomainMessenger.sol#284)\n",
-    "type": "node",
-    "name": "xDomainMsgSender = Constants.DEFAULT_L2_SENDER",
-    "start": 14086,
-    "length": 46,
-    "filename_relative": "src/universal/CrossDomainMessenger.sol"
   }
 ]
